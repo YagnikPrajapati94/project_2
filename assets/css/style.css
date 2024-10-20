@@ -1,0 +1,159 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body[data-aos-duration='4000'] [data-aos],
+[data-aos][data-aos][data-aos-duration='4000'] {
+  transition-duration: 4000ms;
+}
+
+.nav-link:hover{
+    color: #FE4847 !important ;
+    transition: all 0.2s linear;
+}
+.nav-link{
+    font-size: 13px;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+
+    align-content: center;
+}
+  .swiper{
+    align-content: center;
+    width: 100%;
+    height: 120vh;
+  }
+.slide1{
+    background-image:url(../img/slide1.jpg);
+    width: 100%;
+    background-position: end;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slide2{
+    background-image:url(../img/slide2.jpg);
+    width: 100%;
+    background-position: end;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slide3{
+    background-image:url(../img/slide3.jpg);
+    width: 100%;
+    background-position: end;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btn_hover_s1{
+    background-color: #FE4847 !important;
+    border: none !important;
+    transition: all 0.2s ease-in-out;
+}
+.btn_hover_s1:hover{
+    background-color: white !important;
+    color: #FE4847 !important;
+    transition: all 0.2s ease-in-out;
+}
+
+.swiper-pagination{
+    position: absolute;
+}
+
+.glass{
+    position: relative;
+}
+.glass::before{
+    content: "";
+    position: absolute;
+    width: 77%;
+    border-bottom: 3px solid;
+    bottom: 0;   
+}
+.banner{
+    visibility: collapse;
+}
+.sunglasses:hover .banner{
+    visibility: visible;
+}
+.s3{
+    background-color: #F1F1F1;
+}
+.c2_hover:hover{
+    background-color: #FE4847 !important;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+.c2_hover:hover .nav-link{
+    color: white !important;
+}
+.c2{
+    transform: translateX(170px);
+    transition: 0.4s ease-in-out all;
+}
+.card{
+    cursor: pointer;
+    overflow: hidden;
+}
+.card:hover .c2{
+    transform: translateX(0px);
+    transition: 0.4s ease-in-out all;
+}
+.s4{
+    background-image: url(../img/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.458);
+}
+.s4_swiper{
+    height: fit-content;
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+.s5{
+    background-color: #F1F1F1;
+}
+.swiper_custom {
+    overflow: hidden; 
+}
+.fs_1{
+    background-color: #2d2d2d ;
+}
+.ft_text{
+    color: #D5D5D5 !important;
+}
+.ft_text_hover:hover{
+    color: #FE4847 !important;
+    cursor: pointer;
+    border-bottom: 1px solid #FE4847;
+}
+.letter_space{
+    letter-spacing: 1px ;
+    font-size: 14px;
+}
+.angle_up_bg{
+    background-color: #FE4847;
+}
+.loading {
+    display: none; /* Hide by default */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    color: #333;
+    z-index: 1000; /* Ensure it appears above other content */
+}
+
+.loading.show {
+    display: block; /* Show when loading */
+}
+

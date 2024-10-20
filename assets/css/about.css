@@ -1,0 +1,28 @@
+
+
+.bg_s1{
+    background-image: url(../img/breadcrumbs.png);
+    background-position: end;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.473);
+    background-blend-mode: darken;
+}
+.bottom_border{
+    position: relative;
+    width: fit-content;
+}
+.bottom_border::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    bottom: -3px;
+    border-bottom: 3px solid rgba(128, 128, 128, 0.434);
+}
+.dashed_b{
+    border-bottom: 1px dashed gray;
+}
+/* .form-control{
+    outline-color: black !important;
+    outline-offset: 1px solid black !important;
+} */
